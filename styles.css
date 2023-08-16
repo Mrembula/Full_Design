@@ -1,0 +1,147 @@
+/* This is the first container */
+
+#first_container {
+    background-color: black;
+    padding: 0 130px 150px 150px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-left {
+    width: 100px;
+    height: 100px;
+}
+
+
+ul {
+    font-family: sans-serif;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    justify-content: space-around;
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.left-info {
+    width: 500px;
+    padding-bottom: 50px;
+    padding-top: 30px
+}
+
+.sign-up, .sign-Up2 {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 1rem;
+}
+
+.right-image {
+    padding-top: 30px;
+}
+/*This will be the second container */
+
+#second_container, #third_container {
+    padding: 0 120px 120px 100px;
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.artist, .song_name {
+    padding: 0;
+    margin: 0;
+}
+.artist {
+    font-weight: bold;
+}
+
+.weekly_song {
+    max-width: 150px;
+    padding-left: 25px;
+}
+
+.links img {
+    width: 180px;
+    height: 180px;
+    border: solid white;
+    border-radius: 1rem;
+}
+
+p {
+    color: black;
+    font-family: sans-serif;
+}
+
+/* This will be the third container */
+
+#third_container {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+
+}
+
+.text {
+    align-self: center;
+    max-width: 600px;
+    padding-bottom: 0;
+}
+
+
+.size {
+    font-size: 30px;
+    color: grey;
+    font-family: Georgia sans-serif;
+}
+
+/* This will be the fourth container*/
+
+#fourth_container {
+    padding: 0 120px 120px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 100px;
+
+}
+
+#last_container {
+    background-color: darkslategrey;
+    padding: 20px;
+    text-align: center;
+}
